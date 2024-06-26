@@ -10,6 +10,15 @@ hará render en la pantalla
 
 La aplicación fue desarrollada utilizando Next.js, Redux Toolkit y Material-UI. En la sección de tareas, los usuarios pueden crear nuevas tareas, eliminarlas y marcarlas como completadas. Los datos se mantienen persistentes utilizando el almacenamiento local (localStorage)
 
+## Deploy
+
+La aplicación está desplegada y accesible en el siguiente enlace:
+
+[TaskFlow - Technical test](https://task-flow-silk.vercel.app/)
+
+Puedes acceder al deploy haciendo clic en el enlace anterior.
+
+
 ## Instalación
 
 Para empezar, asegúrate de tener `pnpm` instalado globalmente en tu sistema. Puedes instalarlo con npm si aún no lo tienes:

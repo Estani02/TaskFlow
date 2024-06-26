@@ -22,7 +22,7 @@ const tasksSlice = createSlice({
   initialState,
   reducers: {
     addTask: (state, action: PayloadAction<Task>) => {
-      state.tasks.push(action.payload)
+      state.tasks.unshift(action.payload)
     },
     updateTask: (state, action: PayloadAction<Task>) => {
       const existingTask = state.tasks.find((task) => task.id === action.payload.id)

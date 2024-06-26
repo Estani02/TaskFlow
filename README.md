@@ -1,36 +1,44 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# TaskFlow
 
-## Getting Started
+El reto consiste en crear una aplicación sencilla en react js, que tenga las siguientes
+funcionalidades:
+- Una sección de “tasks”, que es un listado sencillo de tasks agregados por el usuario (solo
+tendrán descripción), y que dé la opción de agregar más tasks.
+- Una sección de “listado”, que simplemente hará un request a una lista de datos remoto y les
+hará render en la pantalla
 
-First, run the development server:
+## Instalación
+
+Para empezar, asegúrate de tener `pnpm` instalado globalmente en tu sistema. Puedes instalarlo con npm si aún no lo tienes:
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+npm install -g pnpm
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Luego, clona este repositorio y ejecuta:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+pnpm install
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+Esto instalará todas las dependencias necesarias para el proyecto.
 
-## Learn More
+## Desarrollo
 
-To learn more about Next.js, take a look at the following resources:
+Para ejecutar el proyecto en modo de desarrollo, utiliza el siguiente comando:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+```bash
+pnpm dev
+```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+Esto iniciará el servidor de desarrollo de Next.js y podrás acceder a tu aplicación en `http://localhost:3000`.
 
-## Deploy on Vercel
+## Pruebas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Para ejecutar las pruebas unitarias, utiliza el siguiente comando:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+```bash
+pnpm test
+```
+
+Esto ejecutará todas las pruebas definidas en el proyecto utilizando Jest.

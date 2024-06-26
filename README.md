@@ -7,6 +7,9 @@ tendrán descripción), y que dé la opción de agregar más tasks.
 - Una sección de “listado”, que simplemente hará un request a una lista de datos remoto y les
 hará render en la pantalla
 
+
+La aplicación fue desarrollada utilizando Next.js, Redux Toolkit y Material-UI. En la sección de tareas, los usuarios pueden crear nuevas tareas, eliminarlas y marcarlas como completadas. Los datos se mantienen persistentes utilizando el almacenamiento local (localStorage)
+
 ## Instalación
 
 Para empezar, asegúrate de tener `pnpm` instalado globalmente en tu sistema. Puedes instalarlo con npm si aún no lo tienes:
